@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FBIntegration' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'FacebookCore'
+pod 'FacebookLogin'
+# not working hence the hack from : https://github.com/facebook/facebook-sdk-swift/issues/157
+#pod 'FacebookShare'
+pod 'FacebookShare', :git => 'https://github.com/1amageek/facebook-sdk-swift'
+end

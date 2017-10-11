@@ -1,0 +1,8 @@
+.DS_Store
+DerivedData/
+FBIntegration/Pods/
+FBIntegration/Pods/Pods.xcodeproj/xcuserdata
+FBIntegration/Podfile.lock
+FBIntegration/FBIntegration.xcodeproj/xcuserdata
+FBIntegration/FBIntegration.xcworkspace/xcuserdata
+FBIntegration/FBIntegration.xcodeproj/project.xcworkspace/xcuserdata
